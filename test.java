@@ -18,7 +18,7 @@ public class Main {
 	public static String smallestFile;
 
 	public static void main(String[] args) {
-		String dir = "C:\\Users\\Harle\\Desktop\\ClientDev\\Immaculate\\Immaculate\\src\\minecraft\\immaculate";
+		String dir = "C:\\Users\\";
 		
 		try {
 			Files.walk(Paths.get(dir)).forEach(path -> {
